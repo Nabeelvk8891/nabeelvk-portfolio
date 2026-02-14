@@ -4,6 +4,7 @@ import "./globals.css";
 import clsx from "clsx";
 import JsonLd from "@/components/seo/JsonLd";
 
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -19,10 +20,14 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Nabeel | MERN Stack Developer",
   description: "Futuristic portfolio of a Full Stack Developer specializing in React, Node.js, and modern web technologies.",
+   verification: {
+    google: "Iyv3ozJXcrN2Wuhliz47YWdYM_qcielqtYS-nuVZzRY",
+  },
+
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nabeel.dev",
+    url: "https://nabeelvk.vercel.app",
     title: "Nabeel | MERN Stack Developer",
     description: "Building the future of the web with modern technologies.",
     siteName: "Nabeel Portfolio",
@@ -32,6 +37,7 @@ export const metadata: Metadata = {
     title: "Nabeel | MERN Stack Developer",
     description: "Building the future of the web with modern technologies.",
   },
+  
 };
 
 export default function RootLayout({
