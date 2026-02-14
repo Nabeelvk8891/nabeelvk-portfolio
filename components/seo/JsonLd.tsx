@@ -2,6 +2,7 @@ export default function JsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://nabeelvk.vercel.app/#person",
 
     name: "Muhammed Nabeel VK",
     givenName: "Muhammed Nabeel",
@@ -9,6 +10,7 @@ export default function JsonLd() {
     alternateName: "Nabeel",
 
     url: "https://nabeelvk.vercel.app",
+    mainEntityOfPage: "https://nabeelvk.vercel.app",
     jobTitle: "Full Stack MERN Developer",
 
     sameAs: [
@@ -17,6 +19,10 @@ export default function JsonLd() {
     ],
 
     knowsAbout: [
+      "NABEEL VK",
+      "Web Development",
+      "Software Engineering",
+      
       "React",
       "Next.js",
       "Node.js",
@@ -31,7 +37,7 @@ export default function JsonLd() {
     description:
       "Full Stack MERN Developer building scalable modern web applications with React, Next.js, Node.js and MongoDB.",
 
-    image: "https://nabeelvk.vercel.app/profile.jpg" // optional (replace if you have one)
+    image: "https://nabeelvk.vercel.app/profile.jpg"
   };
 
   return (
