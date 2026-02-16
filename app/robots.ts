@@ -8,6 +8,5 @@ export default function robots(): MetadataRoute.Robots {
       disallow: "/private/",
     },
     sitemap: "https://nabeelvk.vercel.app/sitemap.xml",
-    host: "https://nabeelvk.vercel.app",
   };
 }
