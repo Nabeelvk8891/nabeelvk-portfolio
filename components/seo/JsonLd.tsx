@@ -1,44 +1,64 @@
 export default function JsonLd() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://nabeelvk.vercel.app/#person",
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://nabeelvk.vercel.app/#person",
 
-    name: "Muhammed Nabeel VK",
-    givenName: "Muhammed Nabeel",
-    familyName: "VK",
-    alternateName: "Nabeel",
+      name: "Muhammed Nabeel VK",
+      alternateName: [
+        "Nabeel",
+        "Nabeel VK",
+        "Muhammed Nabeel",
+        "Nabeel Developer"
+      ],
 
-    url: "https://nabeelvk.vercel.app",
-    mainEntityOfPage: "https://nabeelvk.vercel.app",
-    jobTitle: "Full Stack MERN Developer",
+      givenName: "Muhammed Nabeel",
+      familyName: "VK",
 
-    sameAs: [
-      "https://github.com/nabeel8891",
-      "https://www.linkedin.com/in/muhammed-nabeel-vk/"
-    ],
+      url: "https://nabeelvk.vercel.app",
+      mainEntityOfPage: "https://nabeelvk.vercel.app",
+      jobTitle: "Full Stack MERN Developer",
 
-    knowsAbout: [
-      "NABEEL VK",
-      "Web Development",
-      "Software Engineering",
-      
-      "React",
-      "Next.js",
-      "Node.js",
-      "MongoDB",
-      "Express.js",
-      "JavaScript",
-      "TypeScript",
-      "MERN Stack",
-      "Full Stack Development"
-    ],
+      image: "https://nabeelvk.vercel.app/profile.jpg",
 
-    description:
-      "Full Stack MERN Developer building scalable modern web applications with React, Next.js, Node.js and MongoDB.",
+      sameAs: [
+        "https://github.com/nabeel8891",
+        "https://www.linkedin.com/in/muhammed-nabeel-vk/"
+      ],
 
-    image: "https://nabeelvk.vercel.app/profile.jpg"
-  };
+      description:
+        "Muhammed Nabeel VK is a Full Stack MERN Developer based in Calicut, India specializing in React, Next.js, Node.js, and MongoDB, building modern scalable web applications.",
+
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Calicut",
+        addressCountry: "India"
+      },
+
+      knowsAbout: [
+        "Full Stack Development",
+        "MERN Stack",
+        "React",
+        "Next.js",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "JavaScript",
+        "TypeScript",
+        "Web Development"
+      ]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://nabeelvk.vercel.app/#website",
+      url: "https://nabeelvk.vercel.app",
+      name: "Muhammed Nabeel Portfolio",
+      alternateName: "Nabeel Portfolio"
+    }
+  ];
 
   return (
     <script
