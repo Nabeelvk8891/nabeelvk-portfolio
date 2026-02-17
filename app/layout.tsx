@@ -40,9 +40,10 @@ export const metadata: Metadata = {
     "Web Developer Kerala"
   ],
 
-  alternates: {
-    canonical: "/",
-  },
+alternates: {
+  canonical: "https://nabeelvk.vercel.app/",
+},
+
 
   verification: {
     google: "Iyv3ozJXcrN2Wuhliz47YWdYM_qcielqtYS-nuVZzRY",
