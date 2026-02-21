@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="container px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-6 mx-auto max-w-6xl">
 
                 <div className="text-center md:text-left">
-                    <h3 className="text-lg font-bold text-white">Nabeel vk</h3>
+                    <h3 className="text-lg font-bold text-white">Muhammed Nabeel vk</h3>
                  
                     <p className="text-sm text-muted-foreground mt-2">
                         Building digital experiences that defy gravity.
@@ -35,7 +35,7 @@ export default function Footer() {
                 </div>
 
                 <div className="text-xs text-muted-foreground text-center md:text-right">
-                    <p>&copy; {currentYear} Nabeel vk. All rights reserved.</p>
+                    <p>&copy; {currentYear}Muhammed Nabeel vk. All rights reserved.</p>
                     <p>Designed & Built with Next.js</p>
                 </div>
             </div>
