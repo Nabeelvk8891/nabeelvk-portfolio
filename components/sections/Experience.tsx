@@ -6,12 +6,22 @@ import { Briefcase, Calendar, GraduationCap } from "lucide-react";
 
 const experiences = [
   {
+  role: "Academic Advisor & Mentor",
+  company: "Bridgeon Solutions",
+  period: "2026 - Present",
+  description:
+    "Providing academic guidance, technical mentorship, and personalized support to interns throughout their learning journey. Leading student progress reviews, offering career and technical guidance, and helping interns strengthen their skills, discipline, and professional development.",
+  tags: ["Leadership", "Mentoring", "Technical Guidance", "Student Development", "Project management", "Review Validation", "Quality Assurance"],
+  icon: Briefcase,
+  type: "work",
+},
+  {
     role: "MERN Stack Developer Intern",
     company: "Bridgeon Solutions",
-    period: "2025 - Present",
+    period: "2025 - 2026",
     description:
       "Gaining hands-on experience in full-stack MERN development through real applications, authentication systems, API integrations, and deployment workflows while continuously strengthening problem-solving ability.",
-    tags: ["React", "Node.js", "MongoDB", "Express", "AWS"],
+    tags: ["JavaScript", "TypeScript", "React", "Next.js" "Node.js", "MongoDB", "Express", "AWS", "Docker", "Vercel"],
     icon: Briefcase,
     type: "work",
   },
@@ -21,7 +31,7 @@ const experiences = [
     period: "2026 - Current (Pursuing)",
     description:
       "Bachelor of Computer Applications focused on modern full‑stack web development, software engineering practices, and industry‑oriented practical exposure.",
-    tags: ["Full Stack", "Web Dev", "Academic"],
+    tags: ["Full Stack", "Web Dev", "System Architecture", "C", "Academic"],
     icon: GraduationCap,
     type: "education",
   },
