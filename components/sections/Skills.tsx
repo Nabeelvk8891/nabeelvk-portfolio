@@ -14,6 +14,7 @@ const skills = [
             "Tailwind CSS",
             "Framer Motion",
             "Redux Toolkit"
+            "Figma",
         ],
         className: "border-primary/20",
         glow: "group-hover:shadow-[0_0_40px_rgba(0,240,255,0.15)]"
@@ -26,7 +27,8 @@ const skills = [
             "MongoDB",
             "REST APIs",
             "JWT Authentication",
-            "MVC Architecture"
+            "MVC Architecture",
+            "MMVC Architecture"
         ],
         className: "border-secondary/20",
         glow: "group-hover:shadow-[0_0_40px_rgba(112,0,223,0.15)]"
@@ -39,6 +41,9 @@ const skills = [
             "Docker ",
             "Vercel",
             "Postman",
+            "Jira",
+            "Clickup",
+            "Figma"
         ],
         className: "border-accent/20",
         glow: "group-hover:shadow-[0_0_40px_rgba(255,0,85,0.15)]"
