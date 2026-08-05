@@ -13,8 +13,8 @@ const skills = [
             "TypeScript",
             "Tailwind CSS",
             "Framer Motion",
-            "Redux Toolkit"
-            "Figma",
+            "Redux Toolkit",
+            "Figma"
         ],
         className: "border-primary/20",
         glow: "group-hover:shadow-[0_0_40px_rgba(0,240,255,0.15)]"
