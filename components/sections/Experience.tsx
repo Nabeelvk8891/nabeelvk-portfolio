@@ -21,7 +21,7 @@ const experiences = [
     period: "2025 - 2026",
     description:
       "Gaining hands-on experience in full-stack MERN development through real applications, authentication systems, API integrations, and deployment workflows while continuously strengthening problem-solving ability.",
-    tags: ["JavaScript", "TypeScript", "React", "Next.js" "Node.js", "MongoDB", "Express", "AWS", "Docker", "Vercel"],
+    tags: ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "MongoDB", "Express", "AWS", "Docker", "Vercel"],
     icon: Briefcase,
     type: "work",
   },
