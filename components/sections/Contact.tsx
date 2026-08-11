@@ -57,7 +57,7 @@ export default function Contact() {
                         </div>
 
                         <div className="mt-12 text-sm text-muted-foreground">
-                            or email directly at <a href="mailto:nabeelvk2006@gmail.com" className="text-white hover:text-primary transition-colors underline decoration-white/20 underline-offset-4">nabeelvk2006@gmail.com</a>
+                            or email directly at <a href="mailto:nabeelvk.in@gmail.com" className="text-white hover:text-primary transition-colors underline decoration-white/20 underline-offset-4">nabeelvk.in@gmail.com</a>
                         </div>
                     </GlassCard>
                 </motion.div>
